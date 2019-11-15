@@ -64,13 +64,13 @@ int main()
                 cout<<a<<"/"<<b<<"="<<impartire(a,b)<<endl;}
               break;
        case 5:if (b!=0)
-              cout<<a<<"/"<<b<<"="<<modulo(a,b)<<endl;
+              cout<<a<<"%"<<b<<"="<<modulo(a,b)<<endl;
               else
                 while (b==0)
                 {
                 cout<<"Impartire la 0! Introduceti un numar <> 0!"<<endl;
                 cin>>b;
-                cout<<a<<"/"<<b<<"="<<modulo(a,b)<<endl;}
+                cout<<a<<"%"<<b<<"="<<modulo(a,b)<<endl;}
               break;
        default:cout<<"Alegeti o operatie valida!"<<endl;break;
     }
